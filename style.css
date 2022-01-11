@@ -1,0 +1,20 @@
+.ms_debug-short{
+    height: 100px;
+}
+
+.ms_debug-mid{
+    height: 200px;
+}
+
+.ms_debug-tall{
+    height: 500px;
+}
+
+
+.ms_bg-dark-blue{
+    background-color: #303D4E;
+}
+
+.ms_bg-aquamarine{
+    background-color: #4bb9a1;
+}

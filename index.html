@@ -11,169 +11,154 @@
 </head>
 <body>
 
-    <!-- Primo container  -->
+    <!-- HEADER -->
     
-    <section class="container-fluid ms_bg-dark-blue text-white ">
-        <div class="row h-100"> 
-            <div class="col">
-                <div class="container text-center"> 
-                    <h5> START BOOTSTRAP </h5>
-                </div>
-            </div>
+    <header class=" ms_bg-dark-blue text-white ">
 
-            <div class="col h-100">
-                <div class="container text-center fs-7 d-flex align-items-center justify-content-center h-100"> 
-                    <a class="text-white px-4 text-decoration-none" href="#">Portfolio</a>
-                    <a class="text-white px-4 text-decoration-none" href="#">Portfolio</a>
-                    <a class="text-white px-4 text-decoration-none" href="#">Portfolio</a>
-                </div>
-            </div>
-
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark ms_bg-dark-blue">
+        <div class="container-md">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item text-end">
+                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item text-end">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item text-end">
+                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
-    <!-- Secondo container  -->
-        
-    <section class="container-fluid ms_bg-aquamarine  py-5">
-        <div class="row"> 
-            <div class="col">
-                        <div class="container text-center my-5">
-                            <img src="/img/avatar.svg " class="rounded w-25 py-3" alt="...">
-                            <h1 class="text-white">START BOOTSTRAP</h1>
-                            <div class="container justify-content-center text-white">
-                                <i class="bi bi-dash-lg "></i>
-                                <i class="bi bi-star-fill "></i>
-                                <i class="bi bi-dash-lg"></i>
-                            </div>
-                            <h2 class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
+      </nav>
+
+    </header>
+     
+    <!-- MAIN  -->
+
+    <main>
+        <!-- Jumbotron  -->
+    <section id="jumbotron" class="ms_bg-aquamarine py-5">
+        <div class="container">
+            <div class="row"> 
+                <div class="col text-center my-5">
+                        <img src="/img/avatar.svg " class="rounded w-25 py-3" alt="...">
+                        <h1 class="text-white">START BOOTSTRAP</h1>
+                        <div class="col justify-content-center text-white">
+                            <i class="bi bi-dash-lg "></i>
+                            <i class="bi bi-star-fill "></i>
+                            <i class="bi bi-dash-lg"></i>
                         </div>
+                        <h2 class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
+                </div>
+                
             </div>
-            
         </div>
         </section>
-    <!-- Terzo container  -->
-    <section class="container-fluid py-5 px-0">
-        <div class="container px-0 ">
 
-            <div class="col">
-                <div class="container text-center">
-                    <h1 class="text-black"> Portfolio </h1>
-                    <i class="bi bi-star-fill d-block"></i>
+    <!-- Portfolio  -->
+    <section class=" py-5 px-0">
+        <div class="container px-0">
+            <div class="row">
+                <div class="col text-center">
+                        <h1 class="text-black"> Portfolio </h1>
+                        <i class="bi bi-star-fill d-block"></i>
                 </div>
             </div>
-            
-            <div class="row g-2">
-                <div class="col-12 col-md-6  col-lg-4  my-3">
-                    <div class="container ">
+                
+            <div class="row g-4">
+                <div class="col-12 col-md-6  col-lg-4">
                         <img src="/img/cabin.png " class="rounded-3 mw-100" alt="...">
-                    </div>
                 </div>
                 
-                <div class="col-12 col-md-6  col-lg-4  my-3">
-                    <div class="container">
+                <div class="col-12 col-md-6  col-lg-4">
                         <img src="/img/cake.png " class="rounded mw-100" alt="...">
-                    </div>
                 </div>
                 
-                <div class="col-12 col-md-6  col-lg-4  my-3">
-                    <div class="container">
+                <div class="col-12 col-md-6  col-lg-4">
                         <img src="/img/circus.png " class="rounded mw-100" alt="...">
-                    </div>
                 </div>
             
-                <div class="col-12 col-md-6  col-lg-4  my-3">
-                    <div class="container ">
+                <div class="col-12 col-md-6  col-lg-4">
                         <img src="/img/game.png " class="rounded mw-100" alt="...">
-                    </div>
                 </div>
                 
-                <div class="col-12 col-md-6  col-lg-4  my-3">
-                    <div class="container">
+                <div class="col-12 col-md-6  col-lg-4">
                         <img src="/img/safe.png " class="rounded mw-100" alt="...">
-                    </div>
                 </div>
                 
-                <div class="col-12 col-md-6  col-lg-4  my-3">
-                    <div class="container">
+                <div class="col-12 col-md-6  col-lg-4">
                         <img src="/img/submarine.png " class="rounded mw-100" alt="...">
-                    </div>
                 </div>
             </div>
         </div>
             
     </section>
 
-    <!-- Quarto Container  -->
+    <!-- About  -->
 
-    <section class="container-fluid ms_bg-aquamarine py-5">
+    <section class=" ms_bg-aquamarine py-5">
         <div class="container w-75">
 
             <div  class="row">
                 <div class="col">
-                    <div class="container" >
                         <h1 class="text-center text-white">About</h1>
                         <i class="bi bi-star-fill d-block text-center text-white"></i>
-                    </div>
                 </div>
             </div>
             
             <div  class="row">
-                <div class="col-md-6">
-                    <div class="container text-white">
-
+                <div class="col-md-6 text-white">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea qui impedit nulla libero unde ducimus iusto accusamus quae, debitis dignissimos maxime iure, quo dolore dolores fugiat officia, saepe distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, tempora et! Illum incidunt ex eum quidem iusto nemo quae voluptate quaerat ipsam quos, autem qui eos ab praesentium, blanditiis sed?</p>
-                    </div>
                 </div>
                 
-                <div class="col-md-6">
-                    <div class="container text-white">
-
+                <div class="col-md-6 text-white">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea qui impedit nulla libero unde ducimus iusto accusamus quae, debitis dignissimos maxime iure, quo dolore dolores fugiat officia, saepe distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dicta atque quae odit sapiente quos veniam fugit, est id similique delectus quidem nostrum totam repellendus porro cum beatae iste qui.</p>
-                    </div>
-
                 </div>
                 
             </div>
             
             <div  class="row">
                 <div class="col">
-                    <div class="container">
                         <button type="button" class="btn btn-outline-light text-center m-auto d-block">
                             <i class="bi bi-download"></i>
                             Download
                         </button>
-                    </div>
                 </div>
             </div>
             
         </div>
     </section>    
 
-    <!-- Quinto container  -->
-    <section class="container-fluid py-5">
+    <!-- Contact Me  -->
+    <section class=" py-5">
         <div class="container w-75">
-
-                <div class="row">
-                    <div class="col">
-                        <div class="container text-center">
-                            <h1>CONTACT ME</h1>
-                            <i class="bi bi-star-fill d-block text-center"></i>
-                        </div>
-                    </div>    
-                </div>
-                <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
-                <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Email Address" aria-label="Email Address" aria-describedby="addon-wrapping">
-                <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="addon-wrapping">
-                <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Message" aria-label="Username" aria-describedby="addon-wrapping">
-                <button type="button" style="background-color: #4bb9a1;" class="btn ms_bg-aquamarine text-white my-3">Success</button>
-        </div>
+         <div class="row">
+            <div class="col text-center">
+                    <h1>CONTACT ME</h1>
+                    <i class="bi bi-star-fill d-block text-center"></i>
+                    <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
+                    <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Email Address" aria-label="Email Address" aria-describedby="addon-wrapping">
+                    <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="addon-wrapping">
+                    <input type="text" class="form-control border-0 border-bottom mb-1" placeholder="Message" aria-label="Username" aria-describedby="addon-wrapping">
+                    <button type="button" style="background-color: #4bb9a1;" class="btn ms_bg-aquamarine text-white my-3">Success</button>
+               </div>
+         </div>
         </section>
 
-    <!-- Sesto container  -->
+        <!-- FINE MAIN  -->
+        <!-- Footer  -->
 
-    <section class="container-fluid  ms_bg-dark-blue py-5">
+    <footer class="ms_bg-dark-blue py-5">
         <div class="container w-75 h-100 ">
             <div class="row h-100">
-                <div class="col  h-100 d-flex justify-content-center align-items-center">
+                <div class="col  h-100 d-flex justify-content-center align-items-center text-center text-white">
                     <div class="container text-center text-white ">
                         <h5>Location</h5>
                         <p>2215 John Daniel Drive Clark, MO <br> 54242</p>
@@ -197,17 +182,17 @@
                         <h5>ABOUT FREELANCER</h5>
                         <p>Freelance is a free to use, open source Bootstrap them created by <span class="ms_aquamarine"> Start Bootstrap</span>. </p>
                     </div>
-
-                </div>
+s                </div>
 
 
             </div>
         </div>
+    </main>
 
 
 
 
-    </section>
+    </footer>
 
 
 

@@ -41,3 +41,11 @@
 .ms_no-wrap{
     white-space: nowrap;
 }
+
+.ms_hover-aquamarine:hover {
+color: #4bb9a1;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:hover{
+    color: #4bb9a1;
+}

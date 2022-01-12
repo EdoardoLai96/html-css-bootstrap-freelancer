@@ -37,3 +37,7 @@
 .ms_fs_9px{
     font-size: 9px;
 }
+
+.ms_no-wrap{
+    white-space: nowrap;
+}

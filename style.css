@@ -54,14 +54,14 @@ color: #4bb9a1;
     color: #4bb9a1;
 }
 
-#portfolio .row .ms_card .overlay:hover{
+#portfolio .row .ms_card .ms_overlay:hover{
     opacity: 0.9;
     transition: 0.3s;
 }
 
 
 
-.overlay{
+.ms_overlay{
     position: absolute;
     top: 0;
     left: 0;
